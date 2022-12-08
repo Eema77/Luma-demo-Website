@@ -1,0 +1,1246 @@
+{
+"Project information":[
+ {
+  "Project Information": "Project Name",
+  "Column5": "QAmp 2022 "
+ },
+ {
+  "Project Information": "Product name\/number",
+  "Column5": "LUMA website https:\/\/magento.softwaretestingboard.com\/"
+ },
+ {
+  "Project Information": "Product Description",
+  "Column5": "Demo web application for ordering goods"
+ },
+ {
+  "Project Information": "Project description",
+  "Column5": "Test the application \/ analize the site \/ available functionalities within the application \/ test report \/ short summary about the app"
+ },
+ {
+  "Project Information": "Start date",
+  "Column5": "02.12.2022."
+ },
+ {
+  "Project Information": "End date",
+  "Column5": "04.12.2022."
+ },
+ {
+  "Project Information": "Author:",
+  "Column5": "Emir Muhić"
+ },
+ {
+  "Project Information": "Location:",
+  "Column5": "Sarajevo, BiH"
+ },
+ {
+  "Project Information": "Environment",
+  "Column5": "Windows 10, Google Chrome Version 106.0.5249.119 \/ Android 11 RKQ1, Google Chrome"
+ }
+],
+"Project Plan":[
+ {
+  "Test name: LUMA website": "Date: 8.12.2022"
+ },
+ {
+  "Test name: LUMA website": "Project: Qamp 2022"
+ },
+ null,
+ {
+  "                    TEST PLAN": "PROCESS",
+  "Column2": "NO.",
+  "Column3": "TEST CASE",
+  "Column4": "STEP",
+  "Test name: LUMA website": "DESCRIPTION",
+  "Column6": "STATUS",
+  "Column7": "EXPECTED RESULT",
+  "Column8": "ACTUAL RESULT",
+  "  ": "COMMENT"
+ },
+ {
+  "                    TEST PLAN": "Account",
+  "Column2": 1,
+  "Column3": "Create an Account"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": "In upper right corner click on ''Create An Account''",
+  "Column6": "Passed",
+  "Column7": "New window showing blank fileds required for registration should open ",
+  "Column8": "New window showing blank fields required for registration is displayed as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": "Enter First & Last Name, Username and Password and clisk on ''Create An Account''",
+  "Column6": "Passed",
+  "Column7": "'My Account'' window is displayed as expected",
+  "Column8": "'My Account'' window is displayed as expected"
+ },
+ {
+  "                    TEST PLAN": "Sign in",
+  "Column2": 2,
+  "Column3": "Sign in - Positive TC"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": "In upper right corner click on ''Sign in''",
+  "Column6": "Passed",
+  "Column7": "Customer Login page should open",
+  "Column8": "Customer Login page is displayed as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": "Enter valid Username and Password and click on ''Sign In''",
+  "Column6": "Passed",
+  "Column7": "Should be redirected to ''My Account'' page",
+  "Column8": "'My Account'' page is displayed as expected"
+ },
+ {
+  "                    TEST PLAN": "Sign in",
+  "Column2": 3,
+  "Column3": "Sign in - Negative TC"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": "In upper right corner click on ''Sign in''",
+  "Column6": "Passed",
+  "Column7": "Customer Login page should open",
+  "Column8": "Customer Login page is displayed as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": "Enter invalid Username and Password and click on ''Sign In''",
+  "Column6": "Passed",
+  "Column7": "Error message should be displayed",
+  "Column8": "Error message ''the account sign-in was incorrect'' is displayed as expected"
+ },
+ null,
+ {
+  "                    TEST PLAN": "Password",
+  "Column2": 4,
+  "Column3": "Forgot Password"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": "In upper right corner click on ''Sign in''",
+  "Column6": "Passed",
+  "Column7": "Customer Login page should open",
+  "Column8": "Customer Login page is displayed as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": "Click on ''Forgot Your Password''",
+  "Column6": "Passed",
+  "Column7": "'Forgot Your Password?'' page should be displayed",
+  "Column8": "'Forgot Your Password?'' page is displayed as expected"
+ },
+ {
+  "Column4": 4,
+  "Test name: LUMA website": "Submit blank fields with valid inputs and click on ''Reset my Password''",
+  "Column6": "Passed",
+  "Column7": "Customer Login page should open with confirmative pop up message",
+  "Column8": "Customer Login page with confirmative pop up message is displayed"
+ },
+ {
+  "                    TEST PLAN": "Cart",
+  "Column2": 5,
+  "Column3": "Add to Cart"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": "Hover over ''Woman'' and click on ''Tops''",
+  "Column6": "Passed",
+  "Column7": "'Tops'' page should be displayed",
+  "Column8": "'Tops'' page is displayed as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": "Chose first Item and click on it",
+  "Column6": "Passed",
+  "Column7": "New window with photo of selected item with add options should be displayed",
+  "Column8": "New window with large photo of selected item with additional options is displayed as exp"
+ },
+ {
+  "Column4": 4,
+  "Test name: LUMA website": "Select Size, Color and Qty and click on Add to Cart",
+  "Column6": "Passed",
+  "Column7": "In the upper right corner number (Qty) should be present next to the cart icon",
+  "Column8": "In the upper right corner number (Qty) is present next to the cart icon as expected"
+ },
+ {
+  "                    TEST PLAN": "Cart",
+  "Column2": 6,
+  "Column3": " Delete from Cart"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": "In the right upper corner click on Cart icon",
+  "Column6": "Passed",
+  "Column7": "A drop-down menu with Cart items should appear",
+  "Column8": "A drop-down menu with Cart items appeared as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": "Click on the Trash bin icon ",
+  "Column6": "Passed",
+  "Column7": "Are you sure you would like to remove ...'' Message should pop up",
+  "Column8": "Are you sure you would like to remove...? Is displayed as expected"
+ },
+ {
+  "Column4": 4,
+  "Test name: LUMA website": "Click on OK button",
+  "Column6": "Passed",
+  "Column7": "Number showing quantity next to Cart icon should disappear",
+  "Column8": "Number showing quantity next to Cart icon disappeared as expected"
+ },
+ {
+  "                    TEST PLAN": "Cart",
+  "Column2": 7,
+  "Column3": " Add multiple items to Cart"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": "Hover over ''Woman'' and click on ''Tops''",
+  "Column6": "Passed",
+  "Column7": "'Tops'' page should be displayed",
+  "Column8": "'Tops'' page is displayed as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": "Chose first Item and click on it",
+  "Column6": "Passed",
+  "Column7": "Window with photo of selected item with additional options should be displayed",
+  "Column8": "New window with large photo of selected item with additional options is displayed as exp"
+ },
+ {
+  "Column4": 4,
+  "Test name: LUMA website": "Select Size, Color and Qty and click on Add to Cart",
+  "Column6": "Passed",
+  "Column7": "In the upper right corner number (Qty) should be present next to the cart icon",
+  "Column8": "In the upper right corner number (Qty) is present next to the cart icon as expected"
+ },
+ {
+  "Column4": 5,
+  "Test name: LUMA website": "Repeat step 3 and 4 and select few random items and Add to Cart",
+  "Column6": "Passed",
+  "Column7": "In the upper right corner number > than 1 (Qty) should be present next to the cart icon",
+  "Column8": "Number grater than 1 is displayed as expected"
+ },
+ {
+  "                    TEST PLAN": "Payment",
+  "Column2": 8,
+  "Column3": "Testing Payment"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "LUMA site should open",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": "'Tops'' page should be displayed",
+  "Column6": "Passed",
+  "Column7": "'Tops'' page should be displayed",
+  "Column8": "'Tops'' page is displayed as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": "New window withphoto of sel item with additional options should be displayed",
+  "Column6": "Passed",
+  "Column7": "New window with large photo of selected item with add options should be displayed",
+  "Column8": "New window with large photo of selected item with additional options is displayed as exp"
+ },
+ {
+  "Column4": 4,
+  "Test name: LUMA website": "In the upper right corner number (Qty) should be present next to the cart icon",
+  "Column6": "Passed",
+  "Column7": "In the upper right corner number (Qty) should be present next to the cart icon",
+  "Column8": "In the upper right corner number (Qty) is present next to the cart icon as expected"
+ },
+ {
+  "Column4": 5,
+  "Test name: LUMA website": "New window with shipping method should be displayed",
+  "Column6": "Passed",
+  "Column7": "New window with shipping method should be displayed",
+  "Column8": "New window with shipping method is displayed as expected"
+ },
+ {
+  "Column4": 6,
+  "Test name: LUMA website": "Review and payment page should be displayed",
+  "Column6": "Passed",
+  "Column7": "Review and payment page should be displayed",
+  "Column8": "Review and payment page is displayed as expected"
+ },
+ {
+  "Column4": 7,
+  "Test name: LUMA website": "'Thank you for your purchase'' message should be displayed in new window",
+  "Column6": "Passed",
+  "Column7": "'Thank you for your purchase'' message should be displayed in new window",
+  "Column8": "'Thank you for your purchase'' message is displayed in new window as expected"
+ },
+ {
+  "                    TEST PLAN": "Check Interface",
+  "Column2": 9,
+  "Column3": "Interface"
+ },
+ {
+  "Column4": 1,
+  "Test name: LUMA website": "Navigate to https:\/\/magento.softwaretestingboard.com\/; ",
+  "Column6": "Passed",
+  "Column7": "LUMA site should open",
+  "Column8": "Site is displayed as expected"
+ },
+ {
+  "Column4": 2,
+  "Test name: LUMA website": " In the drop-down menu on the upper left corner hover over ''Men'' and click on ''Tops''",
+  "Column6": "Passed",
+  "Column7": "'Tops'' page should be displayed",
+  "Column8": "'Tops'' page is displayed as expected"
+ },
+ {
+  "Column4": 3,
+  "Test name: LUMA website": " Scroll down and pick the last photo in the third row, select grey color in the color picker box",
+  "Column6": "Failed",
+  "Column7": "T-shirt should be grey color",
+  "Column8": "T-Shirt is white color",
+  "  ": "This very same bug is present amongs a lot of items within the App "
+ }
+],
+"TC_Create An Acc":[
+ {
+  "Test Case ID": "Created By",
+  "TC_001": "Emir Muhić",
+  "Column8": "Version",
+  "Column10": "Demo"
+ },
+ null,
+ {
+  "Test Case ID": "QA Tester’s Log",
+  "TC_001": "Testing basic functionalities of this app \/ Create An Account"
+ },
+ null,
+ {
+  "Test Case ID": "Tester's Name ",
+  "TC_001": "Emir Muhić",
+  "Test Case Description": "Date Tested",
+  "Create an Account": "03.12.2022.",
+  "Column8": "Test Case (Pass\/Fail\/Not Executed)",
+  "Column10": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "S #",
+  "Column2": "Prerequisites:",
+  "Create an Account": "S #",
+  "Column7": "Test Data Requirement"
+ },
+ {
+  "Test Case ID": 1,
+  "Column2": "Access to Web Browser",
+  "Create an Account": 1,
+  "Column7": "First Name: Emir"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Enable to open LUMA webpage",
+  "Create an Account": 2,
+  "Column7": "Last Name: Muhic"
+ },
+ {
+  "Test Case ID": 3,
+  "Create an Account": 3,
+  "Column7": "Email: anjlqtww@grr.la"
+ },
+ {
+  "Test Case ID": 4,
+  "Create an Account": 4,
+  "Column7": "Password: P5HtHqexR7Ksfbq"
+ },
+ null,
+ {
+  "Test Case ID": "Test Scenario",
+  "TC_001": "Veryfing on entering valid First and Last name, Username and  Password, customer can successfully create an account"
+ },
+ null,
+ {
+  "Test Case ID": "Step #",
+  "Column2": "Step Details",
+  "Test Case Description": "Expected Results",
+  "Create an Account": "Actual Results",
+  "Column9": "Pass \/ Fail \/ Not executed \/ Suspended"
+ },
+ null,
+ {
+  "Test Case ID": 1,
+  "Column2": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Test Case Description": "LUMA site should open",
+  "Create an Account": "Site is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "In upper right corner click on ''Create An Account''",
+  "Test Case Description": "New window showing blank fileds required for registration should open ",
+  "Create an Account": "New window showing blank fields required for registration is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Enter First & Last Name, Username and Password and clisk on ''Create An Account''",
+  "Test Case Description": "'My Account'' window should be displayed",
+  "Create an Account": "'My Account'' window is displayed as expected",
+  "Column9": "PASS"
+ }
+],
+"TC_Sign in":[
+ {
+  "Test Case ID": "Created By",
+  "TC_002": "Emir Muhić",
+  "Column8": "Version",
+  "Column10": "Demo"
+ },
+ null,
+ {
+  "Test Case ID": "QA Tester’s Log",
+  "TC_002": "Testing basic functionalities of LUMA app\/ Sign in"
+ },
+ null,
+ {
+  "Test Case ID": "Tester's Name ",
+  "TC_002": "Emir Muhić",
+  "Test Case Description": "Date Tested",
+  "Sign in with valid credentials": "04.12.2022.",
+  "Column8": "Test Case (Pass\/Fail\/Not Executed)",
+  "Column10": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "S #",
+  "Column2": "Prerequisites:",
+  "Sign in with valid credentials": "S #",
+  "Column7": "Test Data Requirement"
+ },
+ {
+  "Test Case ID": 1,
+  "Column2": "Access to Web Browser",
+  "Sign in with valid credentials": 1,
+  "Column7": "Email: anjlqtww@grr.la"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Enable to open LUMA webpage",
+  "Sign in with valid credentials": 2,
+  "Column7": "Password: P5HtHqexR7Ksfbq"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Have An Account",
+  "Sign in with valid credentials": 3
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "To be signed out from registred account",
+  "Sign in with valid credentials": 4
+ },
+ null,
+ {
+  "Test Case ID": "Test Scenario",
+  "TC_002": "Veryfing on entering valid  Username and  Password, customer can  sign in"
+ },
+ null,
+ {
+  "Test Case ID": "Step #",
+  "Column2": "Step Details",
+  "Test Case Description": "Expected Results",
+  "Sign in with valid credentials": "Actual Results",
+  "Column9": "Pass \/ Fail \/ Not executed \/ Suspended"
+ },
+ null,
+ {
+  "Test Case ID": 1,
+  "Column2": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Test Case Description": "LUMA site should open",
+  "Sign in with valid credentials": "Site is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "In upper right corner click on ''Sign in''",
+  "Test Case Description": "Customer Login page should open",
+  "Sign in with valid credentials": "Customer Login page is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Enter valid Username and Password and click on ''Sign In''",
+  "Test Case Description": "Should be redirected to ''My Account'' page",
+  "Sign in with valid credentials": "'My Account'' page is displayed as expected",
+  "Column9": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "Test Case ID",
+  "TC_002": "TC_003",
+  "Test Case Description": "Test Case Description",
+  "Sign in with valid credentials": "Sign in with invalid credentials"
+ },
+ {
+  "Test Case ID": "Created By",
+  "TC_002": "Emir Muhić",
+  "Column8": "Version",
+  "Column10": "Demo"
+ },
+ null,
+ {
+  "Test Case ID": "QA Tester’s Log",
+  "TC_002": "Testing basic functionalities of LUMA app\/ Sign in"
+ },
+ null,
+ {
+  "Test Case ID": "Tester's Name ",
+  "TC_002": "Emir Muhić",
+  "Test Case Description": "Date Tested",
+  "Sign in with valid credentials": "04.12.2022.",
+  "Column8": "Test Case (Pass\/Fail\/Not Executed)",
+  "Column10": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "S #",
+  "Column2": "Prerequisites:",
+  "Sign in with valid credentials": "S #",
+  "Column7": "Test Data Requirement"
+ },
+ {
+  "Test Case ID": 1,
+  "Column2": "Access to Web Browser",
+  "Sign in with valid credentials": 1,
+  "Column7": "Email: 1anjlqtww@grr.la"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Enable to open LUMA webpage",
+  "Sign in with valid credentials": 2,
+  "Column7": "Password: 1P5HtHqexR7Ksfbq"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Have An Account",
+  "Sign in with valid credentials": 3
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "To be signed out from registred account",
+  "Sign in with valid credentials": 4
+ },
+ null,
+ {
+  "Test Case ID": "Test Scenario",
+  "TC_002": "Veryfing on entering invalid  Username and  Password, customer should not be able to sign in"
+ },
+ null,
+ {
+  "Test Case ID": "Step #",
+  "Column2": "Step Details",
+  "Test Case Description": "Expected Results",
+  "Sign in with valid credentials": "Actual Results",
+  "Column9": "Pass \/ Fail \/ Not executed \/ Suspended"
+ },
+ null,
+ {
+  "Test Case ID": 1,
+  "Column2": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Test Case Description": "LUMA site should open",
+  "Sign in with valid credentials": "Site is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "In upper right corner click on ''Sign in''",
+  "Test Case Description": "Customer Login page should open",
+  "Sign in with valid credentials": "Customer Login page is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Enter invalid Username and Password and click on ''Sign In''",
+  "Test Case Description": "Error message should be displayed",
+  "Sign in with valid credentials": "Error message ''the account sign-in was incorrect'' is displayed as expected",
+  "Column9": "PASS"
+ }
+],
+"TC_Forgot Pass":[
+ {
+  "Test Case ID": "Created By",
+  "TC_004": "Emir Muhić",
+  "Column8": "Version",
+  "Column10": "Demo"
+ },
+ null,
+ {
+  "Test Case ID": "QA Tester’s Log",
+  "TC_004": "Testing basic functionalities of LUMA app\/ ''Forgot Your Password''"
+ },
+ null,
+ {
+  "Test Case ID": "Tester's Name ",
+  "TC_004": "Emir Muhić",
+  "Test Case Description": "Date Tested",
+  "Testing ''Forgot Your Password'' functionality": "04.12.2022.",
+  "Column8": "Test Case (Pass\/Fail\/Not Executed)",
+  "Column10": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "S #",
+  "Column2": "Prerequisites:",
+  "Testing ''Forgot Your Password'' functionality": "S #",
+  "Column7": "Test Data Requirement"
+ },
+ {
+  "Test Case ID": 1,
+  "Column2": "Access to Web Browser",
+  "Testing ''Forgot Your Password'' functionality": 1,
+  "Column7": "Email: anjlqtww@grr.la"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Enable to open LUMA webpage",
+  "Testing ''Forgot Your Password'' functionality": 2
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Have an Email",
+  "Testing ''Forgot Your Password'' functionality": 3
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "To be signed out from registred account",
+  "Testing ''Forgot Your Password'' functionality": 4
+ },
+ null,
+ {
+  "Test Case ID": "Test Scenario",
+  "TC_004": "Clicking on  ''Forgot Your Password'' should be able to reset it and get confirmation via Email "
+ },
+ null,
+ {
+  "Test Case ID": "Step #",
+  "Column2": "Step Details",
+  "Test Case Description": "Expected Results",
+  "Testing ''Forgot Your Password'' functionality": "Actual Results",
+  "Column9": "Pass \/ Fail \/ Not executed \/ Suspended"
+ },
+ null,
+ {
+  "Test Case ID": 1,
+  "Column2": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Test Case Description": "LUMA site should open",
+  "Testing ''Forgot Your Password'' functionality": "Site is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "In upper right corner click on ''Sign in''",
+  "Test Case Description": "Customer Login page should open",
+  "Testing ''Forgot Your Password'' functionality": "Customer Login page is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Click on ''Forgot Your Password''",
+  "Test Case Description": "'Forgot Your Password?'' page should be displayed",
+  "Testing ''Forgot Your Password'' functionality": "'Forgot Your Password?'' page is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "Submit blank fields with valid inputs and click on ''Reset my Password''",
+  "Test Case Description": "Customer Login page should open with confirmative ''you will receive an email with a link to reset your password.'' message",
+  "Testing ''Forgot Your Password'' functionality": "Customer Login page with confirmative ''you will receive an email with a link to reset your password.'' message is displayed",
+  "Column9": "PASS"
+ }
+],
+"TC_Cart":[
+ {
+  "Test Case ID": "Created By",
+  "TC_005": "Emir Muhić",
+  "Column8": "Version",
+  "Column10": "Demo"
+ },
+ null,
+ {
+  "Test Case ID": "QA Tester’s Log",
+  "TC_005": "Testing basic functionalities of LUMA app\/ Add to cart options"
+ },
+ null,
+ {
+  "Test Case ID": "Tester's Name ",
+  "TC_005": "Emir Muhić",
+  "Test Case Description": "Date Tested",
+  "Testing Add to Cart": "04.12.2022.",
+  "Column8": "Test Case (Pass\/Fail\/Not Executed)",
+  "Column10": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "S #",
+  "Column2": "Prerequisites:",
+  "Testing Add to Cart": "S #",
+  "Column7": "Test Data Requirement"
+ },
+ {
+  "Test Case ID": 1,
+  "Column2": "Access to Web Browser",
+  "Testing Add to Cart": 1,
+  "Column7": "Email: anjlqtww@grr.la"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Enable to open LUMA webpage",
+  "Testing Add to Cart": 2,
+  "Column7": "Password: P5HtHqexR7Ksfbq"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Signed in",
+  "Testing Add to Cart": 3
+ },
+ {
+  "Test Case ID": 4,
+  "Testing Add to Cart": 4
+ },
+ null,
+ {
+  "Test Case ID": "Test Scenario",
+  "TC_005": "Add to Cart should place the selected item into a Cart"
+ },
+ null,
+ {
+  "Test Case ID": "Step #",
+  "Column2": "Step Details",
+  "Test Case Description": "Expected Results",
+  "Testing Add to Cart": "Actual Results",
+  "Column9": "Pass \/ Fail \/ Not executed \/ Suspended"
+ },
+ null,
+ {
+  "Test Case ID": 1,
+  "Column2": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Test Case Description": "LUMA site should open",
+  "Testing Add to Cart": "Site is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Hover over ''Woman'' and click on ''Tops''",
+  "Test Case Description": "'Tops'' page should be displayed",
+  "Testing Add to Cart": "'Tops'' page is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Chose first Item and click on it",
+  "Test Case Description": "New window with large photo of selected item with additional options should be displayed",
+  "Testing Add to Cart": "New window with large photo of selected item with additional options is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "Select Size, Color and Qty and click on Add to Cart",
+  "Test Case Description": "In the upper right corner number (Qty) should be present next to the cart icon",
+  "Testing Add to Cart": "In the upper right corner number (Qty) is present next to the cart icon as expected",
+  "Column9": "PASS"
+ },
+ null,
+ null,
+ {
+  "Test Case ID": "Test Case ID",
+  "TC_005": "TC_006",
+  "Test Case Description": "Test Case Description",
+  "Testing Add to Cart": "Testing Delete from Cart"
+ },
+ {
+  "Test Case ID": "Created By",
+  "TC_005": "Emir Muhić",
+  "Column8": "Version",
+  "Column10": "Demo"
+ },
+ null,
+ {
+  "Test Case ID": "QA Tester’s Log",
+  "TC_005": "Testing basic functionalities of LUMA app\/ Delete from Cart options"
+ },
+ null,
+ {
+  "Test Case ID": "Tester's Name ",
+  "TC_005": "Emir Muhić",
+  "Test Case Description": "Date Tested",
+  "Testing Add to Cart": "04.12.2022.",
+  "Column8": "Test Case (Pass\/Fail\/Not Executed)",
+  "Column10": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "S #",
+  "Column2": "Prerequisites:",
+  "Testing Add to Cart": "S #",
+  "Column7": "Test Data Requirement"
+ },
+ {
+  "Test Case ID": 1,
+  "Column2": "Access to Web Browser",
+  "Testing Add to Cart": 1,
+  "Column7": "Email: anjlqtww@grr.la"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Enable to open LUMA webpage",
+  "Testing Add to Cart": 2,
+  "Column7": "Password: P5HtHqexR7Ksfbq"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Signed in",
+  "Testing Add to Cart": 3
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "Item has been added to the Cart",
+  "Testing Add to Cart": 4
+ },
+ null,
+ {
+  "Test Case ID": "Test Scenario",
+  "TC_005": "Delete Item from the Cart"
+ },
+ null,
+ {
+  "Test Case ID": "Step #",
+  "Column2": "Step Details",
+  "Test Case Description": "Expected Results",
+  "Testing Add to Cart": "Actual Results",
+  "Column9": "Pass \/ Fail \/ Not executed \/ Suspended"
+ },
+ null,
+ {
+  "Test Case ID": 1,
+  "Column2": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Test Case Description": "LUMA site should open",
+  "Testing Add to Cart": "Site is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "In the right upper corner click on Cart icon",
+  "Test Case Description": "A drop-down menu with Cart items should appear",
+  "Testing Add to Cart": "A drop-down menu with Cart items appeared as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Click on the Trash bin icon ",
+  "Test Case Description": "'Are you sure you would like to remove this item from the shopping cart?'' Message should pop up",
+  "Testing Add to Cart": "Are you sure you would like to remove this item from the shopping cart? Is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "Click on OK button",
+  "Test Case Description": "Number showing quantity next to Cart icon should disappear",
+  "Testing Add to Cart": "Number showing quantity next to Cart icon disappeared as expected",
+  "Column9": "PASS"
+ },
+ null,
+ null,
+ {
+  "Test Case ID": "Test Case ID+A47:K69A47:KA47:K67",
+  "TC_005": "TC_007",
+  "Test Case Description": "Test Case Description",
+  "Testing Add to Cart": "Multiple item in the cart"
+ },
+ {
+  "Test Case ID": "Created By",
+  "TC_005": "Emir Muhić",
+  "Column8": "Version",
+  "Column10": "Demo"
+ },
+ null,
+ {
+  "Test Case ID": "QA Tester’s Log",
+  "TC_005": "Testing basic functionalities of LUMA app\/ Add multiple items to Cart"
+ },
+ null,
+ {
+  "Test Case ID": "Tester's Name ",
+  "TC_005": "Emir Muhić",
+  "Test Case Description": "Date Tested",
+  "Testing Add to Cart": "04.12.2022.",
+  "Column8": "Test Case (Pass\/Fail\/Not Executed)",
+  "Column10": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "S #",
+  "Column2": "Prerequisites:",
+  "Testing Add to Cart": "S #",
+  "Column7": "Test Data Requirement"
+ },
+ {
+  "Test Case ID": 1,
+  "Column2": "Access to Web Browser",
+  "Testing Add to Cart": 1,
+  "Column7": "Email: anjlqtww@grr.la"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Enable to open LUMA webpage",
+  "Testing Add to Cart": 2,
+  "Column7": "Password: P5HtHqexR7Ksfbq"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Signed in",
+  "Testing Add to Cart": 3
+ },
+ {
+  "Test Case ID": 4,
+  "Testing Add to Cart": 4
+ },
+ null,
+ {
+  "Test Case ID": "Test Scenario",
+  "TC_005": "Delete Item from the Cart"
+ },
+ null,
+ {
+  "Test Case ID": "Step #",
+  "Column2": "Step Details",
+  "Test Case Description": "Expected Results",
+  "Testing Add to Cart": "Actual Results",
+  "Column9": "Pass \/ Fail \/ Not executed \/ Suspended"
+ },
+ null,
+ {
+  "Test Case ID": 1,
+  "Column2": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Test Case Description": "LUMA site should open",
+  "Testing Add to Cart": "Site is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Hover over ''Woman'' and click on ''Tops''",
+  "Test Case Description": "'Tops'' page should be displayed",
+  "Testing Add to Cart": "'Tops'' page is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Chose first Item and click on it",
+  "Test Case Description": "New window with large photo of selected item with additional options should be displayed",
+  "Testing Add to Cart": "New window with large photo of selected item with additional options is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "Select Size, Color and Qty and click on Add to Cart",
+  "Test Case Description": "In the upper right corner number (Qty) should be present next to the cart icon",
+  "Testing Add to Cart": "In the upper right corner number (Qty) is present next to the cart icon as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 5,
+  "Column2": "Repeat step 3 and 4 and select few random items and Add to Cart",
+  "Test Case Description": "In the upper right corner number > than 1 (Qty) should be present next to the cart icon",
+  "Testing Add to Cart": "Number grater than 1 is displayed as expected",
+  "Column9": "PASS"
+ }
+],
+"TC_Payment":[
+ {
+  "Test Case ID": "Created By",
+  "TC_008": "Emir Muhić",
+  "Column8": "Version",
+  "Column10": "Demo"
+ },
+ null,
+ {
+  "Test Case ID": "QA Tester’s Log",
+  "TC_008": "Testing basic functionalities of LUMA app\/ Payment"
+ },
+ null,
+ {
+  "Test Case ID": "Tester's Name ",
+  "TC_008": "Emir Muhić",
+  "Test Case Description": "Date Tested",
+  "Testing Payment": "04.12.2022.",
+  "Column8": "Test Case (Pass\/Fail\/Not Executed)",
+  "Column10": "PASS"
+ },
+ null,
+ {
+  "Test Case ID": "S #",
+  "Column2": "Prerequisites:",
+  "Testing Payment": "S #",
+  "Column7": "Test Data Requirement"
+ },
+ {
+  "Test Case ID": 1,
+  "Column2": "Access to Web Browser",
+  "Testing Payment": 1,
+  "Column7": "Email: anjlqtww@grr.la"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Enable to open LUMA webpage",
+  "Testing Payment": 2,
+  "Column7": "Password: P5HtHqexR7Ksfbq"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Signed in",
+  "Testing Payment": 3
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "Item has been added to the Cart",
+  "Testing Payment": 4
+ },
+ null,
+ {
+  "Test Case ID": "Test Scenario",
+  "TC_008": "Go to Cart and proceed with payment"
+ },
+ null,
+ {
+  "Test Case ID": "Step #",
+  "Column2": "Step Details",
+  "Test Case Description": "Expected Results",
+  "Testing Payment": "Actual Results",
+  "Column9": "Pass \/ Fail \/ Not executed \/ Suspended"
+ },
+ null,
+ {
+  "Test Case ID": 1,
+  "Column2": "Navigate to https:\/\/magento.softwaretestingboard.com\/",
+  "Test Case Description": "LUMA site should open",
+  "Testing Payment": "Site is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 2,
+  "Column2": "Hover over ''Woman'' and click on ''Tops''",
+  "Test Case Description": "'Tops'' page should be displayed",
+  "Testing Payment": "'Tops'' page is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 3,
+  "Column2": "Chose first Item and click on it",
+  "Test Case Description": "New window with large photo of selected item with additional options should be displayed",
+  "Testing Payment": "New window with large photo of selected item with additional options is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 4,
+  "Column2": "Select Size, Color and Qty and click on Add to Cart",
+  "Test Case Description": "In the upper right corner number (Qty) should be present next to the cart icon",
+  "Testing Payment": "In the upper right corner number (Qty) is present next to the cart icon as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 5,
+  "Column2": "Hover over Cart icon and click on ''Proceed to Checkout''",
+  "Test Case Description": "New window with shipping method should be displayed",
+  "Testing Payment": "New window with shipping method is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 6,
+  "Column2": "Input valid data in all mandatory fields than click on ''Next'' button",
+  "Test Case Description": "Review and payment page should be displayed",
+  "Testing Payment": "Review and payment page is displayed as expected",
+  "Column9": "PASS"
+ },
+ {
+  "Test Case ID": 7,
+  "Column2": "Click on ''Place order'' button",
+  "Test Case Description": "'Thank you for your purchase'' message should be displayed in new window",
+  "Testing Payment": "'Thank you for your purchase'' message is displayed in new window as expected",
+  "Column9": "PASS"
+ }
+],
+"Bug report":[
+ {
+  "Label ": "ID Number",
+  "Value": "#001"
+ },
+ {
+  "Category": "Bug ID",
+  "Label ": "Name",
+  "Value": "Items color differ from the selected one"
+ },
+ {
+  "Label ": "Reporter",
+  "Value": "Emir Muhic"
+ },
+ {
+  "Label ": "Submit date",
+  "Value": "04.12.2022."
+ },
+ {
+  "Category": "Bug overview",
+  "Label ": "Summary",
+  "Value": "Selected item color does not match the one selected in color picker field"
+ },
+ {
+  "Label ": "URL",
+  "Value": "https:\/\/magento.softwaretestingboard.com\/men\/tops-men.html?product_list_limit=36"
+ },
+ {
+  "Label ": "Screenshot",
+  "Value": "Uploaded on the right side of report table"
+ },
+ {
+  "Category": "Environment",
+  "Label ": "Platform",
+  "Value": "Toshiba Satellite R850"
+ },
+ {
+  "Label ": "OS",
+  "Value": "Windows 10 Home"
+ },
+ {
+  "Label ": "Browser",
+  "Value": "Google Chrome Version 106.0.5249.119"
+ },
+ {
+  "Category": "Bug details",
+  "Label ": "Steps to reproduce",
+  "Value": "1. Navigate to https:\/\/magento.softwaretestingboard.com\/; \n2. In the drop-down menu on the upper left corner hover over ''Men'' and click on ''Tops''\n3. Scroll down and pick the last photo in the third row, select grey color in the color picker box"
+ },
+ {
+  "Label ": "Expected result",
+  "Value": "Model with grey fitess shirt on should be displayed"
+ },
+ {
+  "Label ": "Actual result",
+  "Value": "Model with blue fitess shirt on is displayed"
+ },
+ {
+  "Label ": "Description",
+  "Value": "\/"
+ },
+ {
+  "Category": "Bug tracking",
+  "Label ": "Severity",
+  "Value": "Minor"
+ },
+ {
+  "Label ": "Assigned to",
+  "Value": "\/"
+ },
+ {
+  "Label ": "Priority",
+  "Value": "Low"
+ },
+ {
+  "Category": "Notes",
+  "Label ": "Notes",
+  "Value": "This very same bug is present amongs a lot of items within the App "
+ }
+],
+"Summary":[
+ null,
+ null,
+ {
+  "SUMMARY": "                                                     "
+ },
+ null,
+ {
+  "SUMMARY": "demo web application for ordering goods."
+ },
+ null,
+ {
+  "SUMMARY": "·         App is very user friendly and easy to operate"
+ },
+ {
+  "SUMMARY": "·         All basic functions are working as per expected"
+ },
+ {
+  "SUMMARY": "·         All of the links in the footer are clickable, also all images are clickable"
+ },
+ {
+  "SUMMARY": "·         Response time of App is positive"
+ },
+ {
+  "SUMMARY": "·         Bug report – only single bug is reported since this same issue reported was found in many items in the app"
+ },
+ {
+  "SUMMARY": "·         Issues are not critical, application is usable"
+ },
+ {
+  "SUMMARY": "·         Since this is a demo version, no credit card can be added, so bug is not reported "
+ },
+ {
+  "SUMMARY": "·         Design is also very good "
+ },
+ {
+  "SUMMARY": "·         Add\/Delete to Cart functions are working as per expected"
+ },
+ {
+  "SUMMARY": "·         Application is functional on both environment tested – Windows & Android"
+ }
+]
+}
